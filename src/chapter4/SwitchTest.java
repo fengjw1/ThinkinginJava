@@ -1,5 +1,7 @@
 package chapter4;
 
+import chapter2.StaticTest;
+
 /**
  * Created by fengjw on 2017/9/2
  * Code Change The World!

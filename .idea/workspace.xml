@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b827eda-3769-4a7c-9f95-e431f07b1405" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter15/Coffee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter15/Generator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter15/Holder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter15/Holder2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter15/ThreeTuple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter15/TupleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter15/TwoTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter2/StaticTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter2/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnInterface/Apple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnInterface/Banana.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnInterface/Fruit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnInterface/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnOverride/JGJ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnOverride/JNC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnOverride/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnOverride/Wine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learnOverride/多态" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ThinkinginJava/chapter4/SwitchTest.class" afterPath="$PROJECT_DIR$/out/production/ThinkinginJava/chapter4/SwitchTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter4/SwitchTest.java" afterPath="$PROJECT_DIR$/src/chapter4/SwitchTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,127 +27,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Father.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter7/Father.java">
+      <file leaf-file-name="Wine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learnOverride/Wine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Son.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter7/Son.java">
+      <file leaf-file-name="JNC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learnOverride/JNC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="522">
+              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Holder2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/Holder2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-              <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Holder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/Holder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#377#389#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoTuple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/TwoTuple.java">
+      <file leaf-file-name="JGJ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learnOverride/JGJ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="667">
+              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TupleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/TupleTest.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/learnOverride/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/Generator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coffee.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/Coffee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreeTuple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter15/ThreeTuple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -174,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/chapter3/MathOps.java" />
         <option value="$PROJECT_DIR$/src/chapter3/AutoInc.java" />
         <option value="$PROJECT_DIR$/src/chapter3/EqualsMathod.java" />
-        <option value="$PROJECT_DIR$/src/chapter4/SwitchTest.java" />
         <option value="$PROJECT_DIR$/src/chapter5/Rock.java" />
         <option value="$PROJECT_DIR$/src/chapter7/sun.java" />
         <option value="$PROJECT_DIR$/src/chapter7/son.java" />
@@ -190,6 +141,18 @@
         <option value="$PROJECT_DIR$/src/chapter15/TupleTest.java" />
         <option value="$PROJECT_DIR$/src/chapter15/Generator.java" />
         <option value="$PROJECT_DIR$/src/chapter15/Coffee.java" />
+        <option value="$PROJECT_DIR$/src/chapter4/SwitchTest.java" />
+        <option value="$PROJECT_DIR$/src/chapter2/Test.java" />
+        <option value="$PROJECT_DIR$/src/chapter2/StaticTest.java" />
+        <option value="$PROJECT_DIR$/src/learnInterface/Fruit.java" />
+        <option value="$PROJECT_DIR$/src/learnInterface/Apple.java" />
+        <option value="$PROJECT_DIR$/src/learnInterface/Banana.java" />
+        <option value="$PROJECT_DIR$/src/learnInterface/Test.java" />
+        <option value="$PROJECT_DIR$/src/learnOverride/JGJ.java" />
+        <option value="$PROJECT_DIR$/src/learnOverride/Wine.java" />
+        <option value="$PROJECT_DIR$/src/learnOverride/JNC.java" />
+        <option value="$PROJECT_DIR$/src/learnOverride/Test.java" />
+        <option value="$PROJECT_DIR$/src/learnOverride/多态" />
       </list>
     </option>
   </component>
@@ -217,7 +180,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,13 +196,22 @@
               <item name="ThinkinginJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ThinkinginJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkinginJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkinginJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkinginJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learnOverride" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,6 +219,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="E:/HeadFirstJava" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,45 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TupleTest">
-    <configuration name="Father" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter7.Father" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkinginJava" />
-      <envs />
-    </configuration>
-    <configuration name="Rock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter5.Rock" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkinginJava" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -315,14 +253,52 @@
       <module name="ThinkinginJava" />
       <envs />
     </configuration>
-    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="chapter4.*" />
+          <option name="PATTERN" value="learnInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter4.SwitchTest" />
+      <option name="MAIN_CLASS_NAME" value="learnInterface.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkinginJava" />
+      <envs />
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="learnOverride.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="learnOverride.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkinginJava" />
+      <envs />
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chapter2.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -435,19 +411,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SwitchTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Rock" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Son" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Father" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TupleTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Son" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TupleTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TupleTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Son" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Father" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Rock" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SwitchTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Son" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TupleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -469,31 +445,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.205291" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.205291" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25296018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -508,14 +485,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/chapter7/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter15/Holder2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter15/Holder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter15/TwoTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter15/TupleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter15/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter15/ThreeTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter15/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter7/Father.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,10 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,10 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,10 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,10 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,10 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/SwitchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter6/Print.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -687,91 +689,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter7/Father.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter7/Son.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/Holder2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
+        <state relative-caret-position="638">
           <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/Holder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="406">
           <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#377#389#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/TwoTuple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="435">
           <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/ThreeTuple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/TupleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -779,18 +728,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter15/Coffee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="406">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/StaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/SwitchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter7/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter7/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnInterface/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnInterface/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnInterface/Banana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnInterface/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnOverride/JGJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnOverride/JNC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnOverride/Wine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnOverride/多态">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnOverride/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
