@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b827eda-3769-4a7c-9f95-e431f07b1405" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedListTest/LinkedListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedListTest/UseLinkedListAsQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedListTest/UseLinkedListAsStack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7b827eda-3769-4a7c-9f95-e431f07b1405" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,51 +54,13 @@
       <file leaf-file-name="UseLinkedListAsQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedListTest/UseLinkedListAsQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1693">
+            <state relative-caret-position="301">
               <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
               <folding>
                 <element signature="e#1556#1557#0" expanded="true" />
                 <element signature="e#1584#1585#0" expanded="true" />
                 <element signature="e#1716#1717#0" expanded="true" />
                 <element signature="e#1753#1754#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCollection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files (x86)/java/src.zip!/java/util/AbstractCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="84" column="19" lean-forward="false" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
-              <folding>
-                <element signature="e#2293#2294#0" expanded="true" />
-                <element signature="e#2327#2328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files (x86)/java/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bird.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InnerClass/Bird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -490,7 +447,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33756614" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33756614" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -884,7 +841,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedListTest/UseLinkedListAsQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1693">
+        <state relative-caret-position="301">
           <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
           <folding>
             <element signature="e#1556#1557#0" expanded="true" />
