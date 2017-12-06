@@ -12,6 +12,8 @@ public class Point2D {
     private String mName = null;
     private double mX;
     private double mY;
+    private double originPoint;
+    private double userPoint;
 
     public Point2D(){
 
@@ -77,5 +79,21 @@ public class Point2D {
 
     public void setmY(double mY) {
         this.mY = mY;
+    }
+    
+    public double getOriginPoint() {
+        return originPoint;
+    }
+
+    public void setOriginPoint(double originPoint) {
+        this.originPoint = originPoint;
+    }
+
+    public double getUserPoint() {
+        return userPoint;
+    }
+
+    public void setUserPoint(double userPoint) {
+        this.userPoint = userPoint;
     }
 }

@@ -1,6 +1,7 @@
 package exercise;
 
 import java.io.File;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -20,8 +21,6 @@ public class VectorsCsv {
 
     public static void main(String [] args){
 
-        ArrayList<Point2D> vectors = new ArrayList<Point2D>();
-
         try {
             File file = new File("D:test.csv");
             stream = new Scanner(file);
@@ -34,12 +33,26 @@ public class VectorsCsv {
         inputPoint2D();
 
         for (int i = 0; i < tempOriginData.length; i ++){
-            System.out.println(tempOriginData[i]);
+            //System.out.println(tempOriginData[i]);
+            list.get(i).setOriginPoint(tempOriginData[i]);
         }
 
         for (int i = 0; i < tempUserData.length; i ++){
-            System.out.println(tempUserData[i]);
+            //System.out.println(tempUserData[i]);
+            list.get(i).setUserPoint(tempUserData[i]);
         }
+
+        for (int i = 0; i < list.size(); i ++){
+            System.out.print(list.get(i).getmName() + " ");
+            System.out.print(list.get(i).getmX() + " ");
+            System.out.print(list.get(i).getmY() + " ");
+            System.out.print(list.get(i).getOriginPoint() + " ");
+            System.out.println(list.get(i).getUserPoint() + " ");
+            System.out.println();
+        }
+
+        writeToFile(list);
+
     }
 
     /**
@@ -72,13 +85,10 @@ public class VectorsCsv {
         for (int i = 0; i < 5; i ++) {
             Point2D point2D = new Point2D();
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Please input Name : ");
-            String name = scanner.nextLine();
             System.out.println("Please input X : ");
             double x = Double.parseDouble(scanner.nextLine());
             System.out.println("Please input y : ");
             double y = Double.parseDouble(scanner.nextLine());
-            point2D.setmName(name);
             point2D.setPos(x, y);
             tempData.add(point2D);
         }
@@ -114,11 +124,34 @@ public class VectorsCsv {
     /**
      * @brief Writes entries of `list` to `stream`.
      *
-     * @param stream PrintWriter providing write access to file.
      * @param list	 ArrayList of Point2D entries.
-     * @param other  Reference Point2D object.
      */
-    public static void writeToFile(PrintWriter stream, ArrayList<Point2D> list, Point2D other){
+    public static void writeToFile(ArrayList<Point2D> list){
+        PrintWriter printWriter = null;
+        try {
+            File file = new File("D:testWrite.csv");
+            if (!file.exists()){
+                file.createNewFile();
+            }
+
+            printWriter = new PrintWriter(file);
+            for (int i = 0; i < list.size(); i ++){
+                String str = list.get(i).getmName() + ";"
+                        + list.get(i).getmX() + ";"
+                        + list.get(i).getmY() + ";"
+                        + list.get(i).getOriginPoint() + ";"
+                        + list.get(i).getUserPoint() ;
+                printWriter.println(str);
+            }
+            printWriter.flush();
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            if (printWriter != null){
+                printWriter.close();
+            }
+        }
+
 
     }
 
