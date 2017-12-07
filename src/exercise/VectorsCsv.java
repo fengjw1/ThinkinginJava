@@ -15,7 +15,7 @@ public class VectorsCsv {
 
     private static Scanner stream;
     private static ArrayList<Point2D> list;
-    private static ArrayList<Point2D> tempData;
+    private static Point2D tempData;
     private static double[] tempOriginData;
     private static double[] tempUserData;
 
@@ -62,7 +62,7 @@ public class VectorsCsv {
         tempUserData = new double[5];
         Point2D point2D;
         for (int i = 0; i < list.size(); i ++){
-            point2D = tempData.get(i);
+            point2D = tempData;
             tempUserData[i] = list.get(i).distanceTo(point2D);
         }
     }
@@ -81,17 +81,13 @@ public class VectorsCsv {
      * input name,x,y
      */
     private static void inputPoint2D(){
-        tempData = new ArrayList<>();
-        for (int i = 0; i < 5; i ++) {
-            Point2D point2D = new Point2D();
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Please input X : ");
-            double x = Double.parseDouble(scanner.nextLine());
-            System.out.println("Please input y : ");
-            double y = Double.parseDouble(scanner.nextLine());
-            point2D.setPos(x, y);
-            tempData.add(point2D);
-        }
+        tempData = new Point2D();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please input X : ");
+        double x = Double.parseDouble(scanner.nextLine());
+        System.out.println("Please input y : ");
+        double y = Double.parseDouble(scanner.nextLine());
+        tempData.setPos(x, y);
         getToUserLength();
         getCalculateLength();
     }
