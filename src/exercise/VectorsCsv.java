@@ -1,7 +1,6 @@
 package exercise;
 
 import java.io.File;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -22,7 +21,7 @@ public class VectorsCsv {
     public static void main(String [] args){
 
         try {
-            File file = new File("D:test.csv");
+            File file = new File("D:vectors.csv");
             stream = new Scanner(file);
             list = new ArrayList<>();
         }catch (Exception e){
@@ -30,6 +29,14 @@ public class VectorsCsv {
         }
 
         readFromFile(stream, list);
+
+        for (int i = 0; i < list.size(); i ++){
+            System.out.print(list.get(i).getmName() + " ");
+            System.out.print(list.get(i).getmX() + " ");
+            System.out.print(list.get(i).getmY() + " ");
+            System.out.println();
+        }
+
         inputPoint2D();
 
         for (int i = 0; i < tempOriginData.length; i ++){
@@ -100,7 +107,7 @@ public class VectorsCsv {
      */
     public static void readFromFile(Scanner stream, ArrayList<Point2D> list){
         try {
-            stream.useDelimiter("\r");
+            stream.useDelimiter("\n");
             while (stream.hasNextLine()){
                 String str = stream.next();
                 //System.out.println(str);
